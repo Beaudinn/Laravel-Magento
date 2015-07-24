@@ -15,7 +15,6 @@
     },
     "autoload": {
         "classmap": [
-            "src/migrations",
             "src/Connections/Exceptions.php",
             "src/Objects/Exceptions.php"
         ],
