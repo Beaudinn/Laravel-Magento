@@ -1,6 +1,6 @@
 <?php 
 
-namespace Tinyrocket\Magento;
+namespace BeaudinnGreve\Magento;
 
 
 /**
@@ -8,7 +8,7 @@ namespace Tinyrocket\Magento;
  *
  *	The MIT License (MIT)
  *	
- *	Copyright (c) 2014 TinyRocket
+ *	Copyright (c) 2014 BeaudinnGreve
  *	
  *	Permission is hereby granted, free of charge, to any person obtaining a copy
  *	of this software and associated documentation files (the "Software"), to deal
@@ -30,8 +30,8 @@ namespace Tinyrocket\Magento;
  *
  * 	@category   MagentoApi
  * 	@package    MagentoApi_MagentoServiceProvider
- * 	@author     TinyRocket <michael@tinyrocket.co>
- * 	@copyright  2014 TinyRocket
+ * 	@author     BeaudinnGreve <michael@BeaudinnGreve.co>
+ * 	@copyright  2014 BeaudinnGreve
  *
  */
 
@@ -124,7 +124,7 @@ class MagentoServiceProvider extends ServiceProvider {
 	    $this->app->booting(function()
         {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('MagentoSoapClient', 'Tinyrocket\Magento\Facades\MagentoSoapClient');
+            $loader->alias('MagentoSoapClient', 'BeaudinnGreve\Magento\Facades\MagentoSoapClient');
         });
 	}
 
@@ -143,7 +143,7 @@ class MagentoServiceProvider extends ServiceProvider {
 	    $this->app->booting(function()
         {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('MagentoSoapStorage', 'Tinyrocket\Magento\Facades\MagentoSoapStorage');
+            $loader->alias('MagentoSoapStorage', 'BeaudinnGreve\Magento\Facades\MagentoSoapStorage');
         });
 	}
 

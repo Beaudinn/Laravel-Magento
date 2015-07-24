@@ -1,7 +1,7 @@
-<?php namespace Tinyrocket\Magento\Connections;
+<?php namespace BeaudinnGreve\Magento\Connections;
 
-use Tinyrocket\Magento\Connections\ConnectionNotProvidedException;
-use Tinyrocket\Magento\Connections\InvalidConnectionException;
+use BeaudinnGreve\Magento\Connections\ConnectionNotProvidedException;
+use BeaudinnGreve\Magento\Connections\InvalidConnectionException;
 use Illuminate\Support\Facades\Cache;
 
 /**
@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Cache;
  *
  *	The MIT License (MIT)
  *	
- *	Copyright (c) 2014 TinyRocket
+ *	Copyright (c) 2014 BeaudinnGreve
  *	
  *	Permission is hereby granted, free of charge, to any person obtaining a copy
  *	of this software and associated documentation files (the "Software"), to deal
@@ -31,8 +31,8 @@ use Illuminate\Support\Facades\Cache;
  *
  * 	@category   MagentoApi
  * 	@package    MagentoApi_Connections_MagentoSoapStorage
- * 	@author     TinyRocket <michael@tinyrocket.co>
- * 	@copyright  2014 TinyRocket
+ * 	@author     BeaudinnGreve <michael@BeaudinnGreve.co>
+ * 	@copyright  2014 BeaudinnGreve
  *
  */
 
@@ -62,7 +62,7 @@ class MagentoSoapStorage {
 	/**
 	 *	Register Connection
 	 *
-	 *	@return Tinyrocket\Magento\Connections\MagentoSoapClient
+	 *	@return BeaudinnGreve\Magento\Connections\MagentoSoapClient
 	 */
 	public function add($connection)
 	{
@@ -76,7 +76,7 @@ class MagentoSoapStorage {
 	/**
 	 *	Remove Connection
 	 *
-	 *	@return Tinyrocket\Magento\Connections\MagentoSoapClient
+	 *	@return BeaudinnGreve\Magento\Connections\MagentoSoapClient
 	 */
 	public function remove($connection)
 	{

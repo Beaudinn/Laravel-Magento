@@ -1,13 +1,13 @@
-<?php namespace Tinyrocket\Magento\Objects;
+<?php namespace BeaudinnGreve\Magento\Objects;
 
-use Tinyrocket\Magento\Objects\MagentoObjectException;
+use BeaudinnGreve\Magento\Objects\MagentoObjectException;
 
 /**
  * 	Magento API | Connection Exceptions
  *
  *	The MIT License (MIT)
  *	
- *	Copyright (c) 2014 TinyRocket
+ *	Copyright (c) 2014 BeaudinnGreve
  *	
  *	Permission is hereby granted, free of charge, to any person obtaining a copy
  *	of this software and associated documentation files (the "Software"), to deal
@@ -29,8 +29,8 @@ use Tinyrocket\Magento\Objects\MagentoObjectException;
  *
  * 	@category   MagentoApi
  * 	@package    MagentoApi_Objects_MagentoObjectCollection
- * 	@author     TinyRocket <michael@tinyrocket.co>
- * 	@copyright  2014 TinyRocket
+ * 	@author     BeaudinnGreve <michael@BeaudinnGreve.co>
+ * 	@copyright  2014 BeaudinnGreve
  *
  */
 class MagentoObject {

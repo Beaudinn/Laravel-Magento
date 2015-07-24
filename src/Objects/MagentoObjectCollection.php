@@ -1,14 +1,14 @@
-<?php namespace Tinyrocket\Magento\Objects;
+<?php namespace BeaudinnGreve\Magento\Objects;
 
-use Tinyrocket\Magento\Objects\MagentoObject;
-use Tinyrocket\Magento\Objects\MagentoObjectCollectionException;
+use BeaudinnGreve\Magento\Objects\MagentoObject;
+use BeaudinnGreve\Magento\Objects\MagentoObjectCollectionException;
 
 /**
  *  Magento API | Connection Exceptions
  *
  *  The MIT License (MIT)
  *  
- *  Copyright (c) 2014 TinyRocket
+ *  Copyright (c) 2014 BeaudinnGreve
  *  
  *  Permission is hereby granted, free of charge, to any person obtaining a copy
  *  of this software and associated documentation files (the "Software"), to deal
@@ -30,8 +30,8 @@ use Tinyrocket\Magento\Objects\MagentoObjectCollectionException;
  *
  *  @category   MagentoApi
  *  @package    MagentoApi_Objects_MagentoObjectCollection
- *  @author     TinyRocket <michael@tinyrocket.co>
- *  @copyright  2014 TinyRocket
+ *  @author     BeaudinnGreve <michael@BeaudinnGreve.co>
+ *  @copyright  2014 BeaudinnGreve
  *
  */
 class MagentoObjectCollection {
@@ -72,7 +72,7 @@ class MagentoObjectCollection {
     /**
      *  Get Collection
      *
-     *  @return Tinyrocket\Magento\Objects\MagentoObjectCollection
+     *  @return BeaudinnGreve\Magento\Objects\MagentoObjectCollection
      */
     public function getCollection()
     {

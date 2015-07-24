@@ -1,11 +1,11 @@
-<?php namespace Tinyrocket\Magento\Connections;
+<?php namespace BeaudinnGreve\Magento\Connections;
 
 /**
  * 	Magento API | Connection Exceptions
  *
  *	The MIT License (MIT)
  *	
- *	Copyright (c) 2014 TinyRocket
+ *	Copyright (c) 2014 BeaudinnGreve
  *	
  *	Permission is hereby granted, free of charge, to any person obtaining a copy
  *	of this software and associated documentation files (the "Software"), to deal
@@ -27,8 +27,8 @@
  *
  * 	@category   MagentoApi
  * 	@package    MagentoApi_Connections_Exceptions
- * 	@author     TinyRocket <michael@tinyrocket.co>
- * 	@copyright  2014 TinyRocket
+ * 	@author     BeaudinnGreve <michael@BeaudinnGreve.co>
+ * 	@copyright  2014 BeaudinnGreve
  *
  */
 

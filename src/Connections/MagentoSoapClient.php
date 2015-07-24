@@ -1,18 +1,18 @@
-<?php namespace Tinyrocket\Magento\Connections;
+<?php namespace BeaudinnGreve\Magento\Connections;
 
-use Tinyrocket\Magento\Connections\ConnectionNotProvidedException;
-use Tinyrocket\Magento\Connections\InvalidConnectionException;
-use Tinyrocket\Magento\Connections\MagentoSoapClientException;
-use Tinyrocket\Magento\Connections\MagentoSoapConfigurationException;
-use Tinyrocket\Magento\Objects\MagentoObjectCollection;
-use Tinyrocket\Magento\Objects\MagentoObject;
+use BeaudinnGreve\Magento\Connections\ConnectionNotProvidedException;
+use BeaudinnGreve\Magento\Connections\InvalidConnectionException;
+use BeaudinnGreve\Magento\Connections\MagentoSoapClientException;
+use BeaudinnGreve\Magento\Connections\MagentoSoapConfigurationException;
+use BeaudinnGreve\Magento\Objects\MagentoObjectCollection;
+use BeaudinnGreve\Magento\Objects\MagentoObject;
 
 /**
  * 	Magento API | Connection Exceptions
  *
  *	The MIT License (MIT)
  *	
- *	Copyright (c) 2014 TinyRocket
+ *	Copyright (c) 2014 BeaudinnGreve
  *	
  *	Permission is hereby granted, free of charge, to any person obtaining a copy
  *	of this software and associated documentation files (the "Software"), to deal
@@ -34,8 +34,8 @@ use Tinyrocket\Magento\Objects\MagentoObject;
  *
  * 	@category   MagentoApi
  * 	@package    MagentoApi_Connections_MagentoSoapClient
- * 	@author     TinyRocket <michael@tinyrocket.co>
- * 	@copyright  2014 TinyRocket
+ * 	@author     BeaudinnGreve <michael@BeaudinnGreve.co>
+ * 	@copyright  2014 BeaudinnGreve
  *
  */
 class MagentoSoapClient extends \SoapClient {

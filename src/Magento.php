@@ -1,11 +1,11 @@
-<?php namespace Tinyrocket\Magento;
+<?php namespace BeaudinnGreve\Magento;
 
-use Tinyrocket\Magento\Connections\InvalidConnectionException;
-use Tinyrocket\Magento\Connections\MagentoSoapStorage;
-use Tinyrocket\Magento\Connections\MagentoSoapClient;
-use Tinyrocket\Magento\Connections\MagentoSoapClientException;
-use Tinyrocket\Magento\Objects\MagentoObjectCollection;
-use Tinyrocket\Magento\Objects\MagentoObject;
+use BeaudinnGreve\Magento\Connections\InvalidConnectionException;
+use BeaudinnGreve\Magento\Connections\MagentoSoapStorage;
+use BeaudinnGreve\Magento\Connections\MagentoSoapClient;
+use BeaudinnGreve\Magento\Connections\MagentoSoapClientException;
+use BeaudinnGreve\Magento\Objects\MagentoObjectCollection;
+use BeaudinnGreve\Magento\Objects\MagentoObject;
 
 use Illuminate\Config\Repository;
 
@@ -15,7 +15,7 @@ use Illuminate\Config\Repository;
  *
  *	The MIT License (MIT)
  *	
- *	Copyright (c) 2014 TinyRocket
+ *	Copyright (c) 2014 BeaudinnGreve
  *	
  *	Permission is hereby granted, free of charge, to any person obtaining a copy
  *	of this software and associated documentation files (the "Software"), to deal
@@ -37,8 +37,8 @@ use Illuminate\Config\Repository;
  *
  * 	@category   MagentoApi
  * 	@package    MagentoApi_Magento
- * 	@author     TinyRocket <michael@tinyrocket.co>
- * 	@copyright  2014 TinyRocket
+ * 	@author     BeaudinnGreve <michael@BeaudinnGreve.co>
+ * 	@copyright  2014 BeaudinnGreve
  *
  */
 
@@ -193,7 +193,7 @@ class Magento {
 	/**
 	 *	Get Primary Connection
 	 *
-	 *	@return Tinyrocket\Magento\Connections\MagentoSoapClient
+	 *	@return BeaudinnGreve\Magento\Connections\MagentoSoapClient
 	 */
 	public function getPrimaryConnection()
 	{
@@ -236,7 +236,7 @@ class Magento {
 	/**
 	 *	Get Primary Connection
 	 *
-	 *	@return Tinyrocket\Magento\Connections\MagentoSoapClient
+	 *	@return BeaudinnGreve\Magento\Connections\MagentoSoapClient
 	 */
 	public function setPrimaryConnection($name)
 	{
@@ -269,7 +269,7 @@ class Magento {
 	/**
 	 *	Register Connection
 	 *
-	 *	@return Tinyrocket\Magento\Connections\MagentoSoapClient
+	 *	@return BeaudinnGreve\Magento\Connections\MagentoSoapClient
 	 */
 	public function register($connection, $return = true, $forget = false)
 	{
@@ -290,7 +290,7 @@ class Magento {
 	/**
 	 *	Register Connection 
 	 *
-	 *	@return Tinyrocket\Magento\Connections\MagentoSoapClient
+	 *	@return BeaudinnGreve\Magento\Connections\MagentoSoapClient
 	 */
 	public function batchRegister($connections)
 	{
