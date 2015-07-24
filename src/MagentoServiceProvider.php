@@ -59,7 +59,7 @@ class MagentoServiceProvider extends ServiceProvider {
 	public function boot()
 	{
         $this->setupPackage($this->app->asset);
-        $this->setupRoutes($this->app->router);
+        //$this->setupRoutes($this->app->router);
 	}
 
 	    /**
@@ -71,13 +71,13 @@ class MagentoServiceProvider extends ServiceProvider {
      */
     protected function setupPackage(Asset $asset)
     {
-        $source = realpath(__DIR__.'/../config/magentoscraper.php');
+        $source = realpath(__DIR__.'/../config/magento.php');
 
-        $this->publishes([$source => config_path('magentoscraper.php')]);
+        $this->publishes([$source => config_path('magento.php')]);
 
-        $this->mergeConfigFrom($source, 'magentoscraper');
+        $this->mergeConfigFrom($source, 'magento');
 
-        $this->loadViewsFrom(realpath(__DIR__.'/../views'), 'magentoscraper');
+        //$this->loadViewsFrom(realpath(__DIR__.'/../views'), 'magentoscraper');
 
 
         //$asset->registerStyles(['beaudinn-greve/magentoscraper/assets/css/magentoscraper.css'], '', 'magentoscraper');
