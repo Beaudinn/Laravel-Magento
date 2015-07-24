@@ -1,7 +1,6 @@
 {
     "name": "beaudinn-greve/magento",
     "description": "A simple Magento Integration using SOAP api",
-    "version": "1.0.0",
     "keywords": ["laravel", "laravel 5", "magento", "soap"],
     "license": "MIT",
     "authors": [
