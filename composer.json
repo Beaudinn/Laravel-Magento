@@ -1,0 +1,31 @@
+{
+    "name": "beaudinn-greve/magento",
+    "description": "A simple Magento Integration using SOAP api",
+    "version": "1.0.0",
+    "keywords": ["laravel", "laravel 5", "magento", "soap"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Beaudinn Greve",
+            "email": "beaudinngreve@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/Connections/Exceptions.php",
+            "src/Objects/Exceptions.php"
+        ],
+        "psr-0": {
+            "BeaudinnGreve\\Magento\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-bugfix": "1.0.x-dev"
+        }
+    }
+}
